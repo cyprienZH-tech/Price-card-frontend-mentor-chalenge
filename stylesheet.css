@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h2,h4,p {
+    margin: 0;
+}
+
+#card{
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+    box-shadow: -7px 3px 39px -4px rgba(0,0,0,0.56);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#top-section{
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+#top-section h2{
+    color: rgb(28, 167, 144);
+    margin-bottom: 20px;
+}
+
+#top-section h4{
+    color: rgba(190, 241, 34, 0.936);
+    margin-bottom: 15px;
+}
+
+#top-section p{
+    color:gray;
+}
+
+#botom-section{
+    width: 100%;
+    height: 65%;
+    
+}
+
+#botom-section {
+    color: rgba(255, 255, 255, 0.872);
+}
+
+#botom-left-section{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(28, 167, 144);
+    padding: 25px;
+
+    
+}
+
+#botom-right-section{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color:rgb(31, 180, 155);
+    padding: 25px;
+}
+
+#botom-left-section h4{
+    margin-bottom: 15px;
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#price-container{
+    margin-bottom: 10px;
+}
+
+#per-month, #price{
+    display: inline-block;
+}
+
+#per-month {
+    position: relative;
+    top: -4px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 5px;
+
+}
+
+#botom-left-section p{
+    font-size: 0.9rem;
+}
+
+#botom-left-section button{
+    color: white;
+    background-color: rgba(190, 241, 34, 0.936);
+    border: none;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#botom-left-section button:hover{
+    cursor: pointer;
+    background-color:rgba(165, 217, 9, 0.936);
+    transform: scale(1.02);
+}
+
+#botom-right-section ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+} 
+
